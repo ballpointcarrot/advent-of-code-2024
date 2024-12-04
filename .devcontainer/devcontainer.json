@@ -1,0 +1,10 @@
+{
+  "build": {
+    "dockerfile": "Dockerfile"
+  },
+  "workspaceMount": "",
+  "features": {
+    "ghcr.io/schlich/devcontainer-features/helix": "1"
+  },
+  "runArgs": ["--volume=${localWorkspaceFolder}:/workspaces/${localWorkspaceFolder}:Z"],
+}

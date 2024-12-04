@@ -1,0 +1,9 @@
+name: advent-of-code-2024
+version: 0.1.0
+
+authors:
+  - Christopher Kruse <ckruse@ballpointcarrot.net>
+
+crystal: '>= 1.14.0'
+
+license: MIT
