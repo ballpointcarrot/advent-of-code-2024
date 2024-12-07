@@ -31,7 +31,6 @@ describe Day1 do
     end
     it "runs the full dataset for part 2" do
         result = Day1.part2(File.new("./input/day1.txt").gets_to_end)
-        puts "result: #{result}"
         result.should eq(19457120)
     end
   end
